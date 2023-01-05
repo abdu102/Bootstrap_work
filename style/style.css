@@ -1,0 +1,13 @@
+.container{
+    max-width: 1440px !important;
+}
+.foot__list, .foot__icons{
+    font-size: 20px;
+    list-style: none;
+}
+.foot__icons {
+    width: 10% !important;
+}
+.foot__icon{
+    font-size: 23px;
+}

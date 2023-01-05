@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/751050d035.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css"> 
+</head>
+<body>
+   <header class="bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-dark p-4" data-bs-theme="dark">
+              <a class="navbar-brand text-white" href="#">Homework</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu bg-dark">
+                      <li><a class="dropdown-item text-white" href="#">Iphone</a></li>
+                      <li><a class="dropdown-item text-white" href="#">MacBook</a></li>
+                      <li><hr class="dropdown-divider text-white"></li>
+                      <li><a class="dropdown-item text-white" href="#">Ipad</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disables text-white">Log in</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-dark" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+          </nav>
+    </div>
+   </header>
+   <main>
+    <section>
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-dark" style="width: 18rem;">
+                        <img src="./img/hero_endframe__dtzvajyextyu_large.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-dark shadow p-3 mb-5" style="width: 18rem;">
+                        <img src="./img/watch_ultra.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-dark shadow p-3 mb-5" style="width: 18rem;">
+                        <img src="./img/ipad.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container bg-dark">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/macm1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/macm2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/mac_airm2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="container bg-dark d-flex justify-content-center p-5">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Buy MacBook</button>
+
+<div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title text-white" id="offcanvasScrollingLabel">Choose version</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-white">
+    <p>Sorry something get wrong </p>
+  </div>
+</div>
+        </div>
+    </section>
+    
+
+   </main>
+
+   <footer class="bg-dark">
+    <div class="foot d-flex justify-content-between align-items-center p-5">
+        <ul class="foot__list d-flex justify-content-between w-25 text-white">
+            <li class="foot__list--item">Home</li>
+            <li class="foot__list--item">MacBook</li>
+            <li class="foot__list--item">Ipad</li>
+        </ul>
+        <ul class="foot__icons text-white d-flex justify-content-around w-25">
+            <li class="foot__icon">
+                <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li class="foot__icon">
+                <i class="fa-brands fa-facebook"></i>
+            </li>
+        </ul>
+    </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
